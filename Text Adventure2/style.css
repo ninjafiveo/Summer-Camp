@@ -1,0 +1,29 @@
+@font-face{
+    font-family: courierstuck;
+    src: url(courierstuck.ttf);
+}
+
+h1 {
+    font-family: courierstuck;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px #facade;
+    
+}
+
+html{
+    text-align: center;
+}
+
+input, value {
+    font-family: courierstuck;
+    font-size: 25px;
+    color: #696969;
+}
+
+body{
+    background-image: url(images/jon-tyson-FDLyXGdY-BY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+

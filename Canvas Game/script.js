@@ -1,3 +1,4 @@
+// https://www.youtube.com/watch?v=eI9idPTT0c4
 const canvas = document.querySelector('canvas');
 const c = canvas.getContext('2d'); //context
 

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div id="Beginning">
+
+<h1 >Welcome, Choose your Character</h1>
+<input type="button" id="CN" value="Carter Nealy" onclick="CN();"> 
+<input type="button" id="FT" value="Fae Turner" onclick="FT();"> 
+</div>
+
+
+<div id="firstChallenge" style="display: none;">
+
+<h1 >You come across a scared Nympth, what do you do?</h1>
+<input type="button" id="Fight" value="Fight It" onclick="fight();"> 
+<input type="button" id="Ask" value="Ask whats Wrong" onclick="ask();"> 
+
+</div>
+
+<div id="fightText" style="display: none;">
+    <h1 id="fightTextOne"></h1>
+    <h1 id="fightTextTwo"></h1>
+</div>
+
+
+<div id="asking" style="display: none;">
+
+<h1>She tells you she doesn't know her way out of the forest. You kindly show her the way</h1>
+<h1>You continue with your Adventure</h1>
+
+</div>
+
+</div>
+
+
+<div id="threeDoors" style="display: none;">
+
+    <h1>You come across 3 archways, which one do you choose to walk through?</h1>
+    <input type="button" id="archOne" value="ArchOne" onclick="archOne();"> 
+    <input type="button" id="archTwo" value="ArchTwo" onclick="archTwo();"> 
+    <input type="button" id="archThree" value="ArchThree" onclick="archThree();"> 
+
+</div>
+
+<div id="one" style="display: none;">
+
+    <h1>you walk through th earch and are transported to a different dimenision, I guess you have to figure this one out by yourself</h1>
+
+</div>
+<div id="two" style="display: none;">
+
+    <h1>you walk through the arch and immediality fall through the ground, this isnt how you wanted to go out, but it happened</h1>
+
+</div>
+<div id="three" style="display: none;">
+
+    <h1>You walk through the arch way, you see your end goal in sight, go forward.</h1>
+    
+<input type="button" id="endButtonOne" value="Continue" onclick="endFightBF();">
+</div>
+
+
+<div id="finalBattleAgain" style="display: none;">
+<div id="finalBattle" style="display: none;">
+    <h1 id="endBattleText">You meet your final opponent, end this battle</h1>
+    <input type="button" id="endFight" value="Fight Them" onclick="endFight();"> 
+<h1 id="villain"></h1>
+<h1 id="heroOne"></h1>
+
+
+
+</div>
+
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
